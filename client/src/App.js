@@ -40,7 +40,7 @@ function App() {
   }
 
   const handleCopy = () => {
-    const text = result; // Assuming result is a string
+    const text = result;
     navigator.clipboard.writeText(text)
       .then(() => {
         showAlert("Copied to Clipboard!", "success");
